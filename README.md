@@ -1,6 +1,6 @@
 # EX01 Developing a Simple Webserver
 
-# Date:
+# Date:08-09-2024
 # AIM:
 To develop a simple webserver to serve html pages and display the configuration details of laptop.
 
@@ -82,22 +82,22 @@ table.specs-table td:hover {
   background-color: #e1e7f1; 
 }
 
-/* Styling the last row */
+
 table.specs-table tr:last-child td {
-  border-bottom: none; /* Removes the border from the last row */
+  border-bottom: none; 
 }
 
-/* Responsive design for mobile */
+
 @media screen and (max-width: 600px) {
   table.specs-table {
-    width: 90%; /* Full width on smaller screens */
-    margin: 20px auto; /* Less margin for smaller screens */
+    width: 90%; 
+    margin: 20px auto; 
   }
 
   table.specs-table th, 
   table.specs-table td {
-    font-size: 13px; /* Slightly smaller text for smaller screens */
-    padding: 10px; /* Reduced padding on mobile */
+    font-size: 13px; 
+    padding: 10px; 
   }
 }
 
